@@ -435,6 +435,7 @@ height: 100%;
 
 
 .division2 {
+    padding-top: 300px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -535,9 +536,14 @@ height: 100%;
 }
 .arrow_circle{
     width: 35px;
+    position: relative;
     height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 10px;
     border-radius: 100px;
+    font-size: 30px;
     position: relative;
     background-color: rgb(201, 231, 231);
 }
@@ -557,4 +563,146 @@ height: 100%;
     font-weight: bold;
     color: rgba(54, 89, 106);
 }
+.best_offers
+{
+    position: relative;
+    margin-top: 100px;
+    width: 90%;
+    max-width: 700px;
+    height: 250px;
+    background-color: rgba(235, 255, 255, 0);
+    display: flex;
+}
 
+.best_box
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.box1
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.box2
+{   
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+}
+.box3
+{
+    background-color: rgba(225, 255, 0, 0);
+}
+
+
+.box1_section1
+{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 100%;
+    height: 15%;
+    
+}
+
+.box_section_icon
+{
+    position: relative;
+    width: 35px;
+
+}
+.box1_section2
+{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 100%;
+    min-width: 300px;
+    height: 30%;
+    font-size: clamp(12px,5vw,16px);
+    color: rgba(54, 89, 106);
+    justify-content: start;
+    
+}
+
+.box1_section2_1
+{
+    width: 30%;
+    min-width: 100px;
+    font-weight: bold;
+}
+
+.box1_section2_2
+{
+    font-weight: 400;
+    font-style: italic;
+    padding-right: 20px;
+    font-size: clamp(10px,5vw,14px);
+    width: 100%;
+    margin-left: 10px;
+    
+}
+
+.box2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2_d
+{
+   margin-top: 20px;
+   margin-bottom: 20px; 
+   width: 5px;
+   height: 160px;
+   border-radius: 100px;
+   background-color: rgba(54, 89, 106, 0.369);
+}
+
+.box3
+{
+    min-width: 300px;
+    background-color: none ;
+    display: flex;
+    flex-direction: column;
+}
+
+.box3_section2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box2_section2_2
+{
+    font-weight: 400;
+    font-style: italic;
+    padding-right: 20px;
+    font-size: clamp(10px,5vw,14px);
+    width: 100%;
+    margin-left: 10px;
+    height: 50px;
+    
+}
+
+.box2_section2
+{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 35px;
+    width: 100%;
+    min-width: 300px;
+    height: 30px;
+    font-size: clamp(12px,5vw,16px);
+    color: rgba(54, 89, 106);
+    justify-content: start;
+    
+}
